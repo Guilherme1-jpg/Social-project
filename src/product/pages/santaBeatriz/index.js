@@ -5,6 +5,7 @@ import Santa2 from "../../../_assets/img/staBeatriz/santa2.jpg";
 import Santa3 from "../../../_assets/img/staBeatriz/santa3.jpg";
 import Santa4 from "../../../_assets/img/staBeatriz/santa4.jpg";
 import Santa5 from "../../../_assets/img/staBeatriz/santa5.jpg";
+import Santa6 from "../../../_assets/img/staBeatriz/santa6.jpg";
 import PgFacebook from "../../../components/pgFacebook";
 
 const SantaBeatriz = () => {
@@ -238,20 +239,42 @@ const SantaBeatriz = () => {
               </div>
             </div>
 
-            <div class="row">
+            <div class="row mb-3">
               <div class="col-5 d-flex justify-content-end">
                 <figure class="my-4">
-                  <img src={Santa2} alt="" class="img-fluid" />
-                  <figcaption>Legenda da Imagem</figcaption>
+                  <img src={Santa6} alt="" class="img-fluid" />
                 </figure>
               </div>
               <div class="col-7" justify-content="left">
-                <h4>Nascimento de Beatriz e sua Infância</h4>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <h4>A Viagem</h4>
+                <p>
+                  O caminho a percorrer era de mais ou menos 230 quilômetros.
+                  Cheio de perigos. Guerrilheiros se ocultavam nos bosques e
+                  salteadores espreitavam nas gargantas dos vales.
+                </p>
+                <p>
+                  A certa altura da viagem, de um bosque que ladeava o caminho,
+                  saíram dois Frades de Hábito marrom e cordão. Dois
+                  Franciscanos. Os Frades, porém, a saudarame um deles falava a
+                  língua portuguesa. Mais tranquilizada, perguntou-lhes Beatriz:
+                  Quem sois? Donde vindes?
+                </p>
+                <p>
+                  - Tranquilizai-vos. Queremos dar-vos a notícia que estais a
+                  caminho para vos tornardes uma das maiores damas da Espanha. E
+                  vossas filhas espalhar-se-ão por toda a Terra.
+                </p>
+                <p>
+                  - Impossível. Ofereci a Deus minha virgindade consagrando-me
+                  inteiramente a Ele, jamais casaria com homem algum.
+                </p>
+                <p>O que dissemos acontecerá. – Disseram eles.</p>
+                <p>
+                  Enquanto ela refletia, desapareceram. Beatriz compreendeu que
+                  se tratava de uma mensagem do Céu e que os dois Franciscanos
+                  outros não eram que São Francisco de Assis e seu patrício
+                  Santo Antônio de Lisboa, a quem ela era muito devota.
+                </p>
               </div>
             </div>
           </div>
