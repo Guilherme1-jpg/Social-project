@@ -2,8 +2,9 @@ import { style } from "@mui/system";
 import styled from "styled-components";
 
 export const ContactArea = styled.div`
-  align: right;
+  align: center;
   display: flex;
+  width: 80%;
   justify-content: center;
   align-items: center;
   border: 5px solid burlywood;
@@ -13,14 +14,7 @@ export const ContactArea = styled.div`
   border-left: 1;
   border-right: 1;
   border-bottom: 1;
-  margin-right: 5%;
   background: bisque;
-`;
-
-export const Body = styled.body`
-  align: left;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 5%;
+  margin-left: 10%;
+  class="col-md-9";
 `;
