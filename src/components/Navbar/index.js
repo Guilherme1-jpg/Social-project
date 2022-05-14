@@ -15,6 +15,7 @@ const NavbarToggle = () => {
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/blog">Blog</Nav.Link>
             <Nav.Link href="/shop">Produtos</Nav.Link>
+            <Nav.Link href="/santaBeatriz">Santa Beatriz</Nav.Link>
             <Nav.Link href="/contact">Contato</Nav.Link>
           </Nav>
         </Container>
