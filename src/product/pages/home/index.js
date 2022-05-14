@@ -1,12 +1,10 @@
 import React from "react";
-import PgFacebook from "../../../components/pgFacebook";
 import { ContactArea, Body } from "./styled";
 import Freira from "../../../_assets/img/freirinha.jpg";
 
 const Home = () => {
   return (
     <>
-      <PgFacebook />
       <body class="col-md-12">
         <div justify-content="center">
           <img
