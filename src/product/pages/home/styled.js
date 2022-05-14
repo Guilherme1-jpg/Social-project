@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const ContactArea = styled.div`
   align: center;
   display: flex;
-  width: 80%;
+  width: 90%;
   justify-content: center;
   align-items: center;
   border: 5px solid burlywood;
