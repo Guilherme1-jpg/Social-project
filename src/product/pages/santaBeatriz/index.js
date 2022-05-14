@@ -18,16 +18,14 @@ const SantaBeatriz = () => {
               A Virgem singularmente amada de Maria Imaculada
             </h3>
 
-            <div class="row">
-              <h4 class="mb-4 text-center font-italic">
-                Nascimento de Beatriz e sua Infância
-              </h4>
+            <div class="row mb-3">
               <div class="col-5 d-flex justify-content-end">
                 <figure class="my-4">
                   <img src={Santa1} alt="" class="img-fluid" />
                 </figure>
               </div>
               <div class="col-7" justify-content="left">
+                <h4>Nascimento de Beatriz e sua Infância</h4>
                 <p>
                   Beatriz nasceu em Ceuta – África (que na época era possessão
                   portuguesa) por volta do ano 1424 ou 1426 filha de Dom Rui
@@ -55,16 +53,14 @@ const SantaBeatriz = () => {
               </div>
             </div>
 
-            <div class="row">
-              <h4 class="mb-4 text-center font-italic">
-                Amor de Beatriz à Maria
-              </h4>
+            <div class="row mb-3">
               <div class="col-5 d-flex justify-content-end">
                 <figure class="my-4">
                   <img src={Santa2} alt="" class="img-fluid" />
                 </figure>
               </div>
               <div class="col-7" justify-content="left">
+                <h4>Amor de Beatriz à Maria</h4>
                 <p>
                   Todos os seus Biógrafos narram sua grande piedade e virtude
                   desde sua infância, e os testemunhos para o Processo de sua
@@ -101,14 +97,14 @@ const SantaBeatriz = () => {
               </div>
             </div>
 
-            <div class="row">
-              <h4 class="mb-4 text-center font-italic">Na Corte de Castela</h4>
+            <div class="row mb-3">
               <div class="col-5 d-flex justify-content-end">
                 <figure class="my-4">
                   <img src={Santa3} alt="" class="img-fluid" />
                 </figure>
               </div>
               <div class="col-7" justify-content="left">
+                <h4>Na Corte de Castela</h4>
                 <p>
                   Em 1447, a Infanta de Portugal Dona Isabel desposava o Rei
                   viúvo D. João de Castela. O casamento real deu ocasião a Dona
@@ -139,7 +135,6 @@ const SantaBeatriz = () => {
             </div>
 
             <div class="row">
-              <h4 class="mb-4 text-center font-italic">O Pecado de ser bela</h4>
               <div class="col-5 d-flex justify-content-end">
                 <figure class="my-4">
                   <img src={Santa4} alt="" class="img-fluid" />
@@ -148,6 +143,7 @@ const SantaBeatriz = () => {
                 </figure>
               </div>
               <div class="col-7" justify-content="left">
+                <h4>O Pecado de ser bela</h4>
                 <p>
                   Beatriz era bela e pudorosa. Esforçava-se por manter sua
                   conduta irrepreensível em meio a tantas frivolidades, ciúmes e
@@ -181,7 +177,7 @@ const SantaBeatriz = () => {
               </div>
             </div>
 
-            <div class="row">
+            <div class="row mb-3">
               <div class="col-5 d-flex justify-content-end"></div>
               <div class="col-7" justify-content="left">
                 <p>
@@ -239,6 +235,23 @@ const SantaBeatriz = () => {
                   depois acompanhada pelo seu Tio, abandonou a Corte e dirigiu
                   seus passos a Toledo.
                 </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-5 d-flex justify-content-end">
+                <figure class="my-4">
+                  <img src={Santa2} alt="" class="img-fluid" />
+                  <figcaption>Legenda da Imagem</figcaption>
+                </figure>
+              </div>
+              <div class="col-7" justify-content="left">
+                <h4>Nascimento de Beatriz e sua Infância</h4>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
               </div>
             </div>
           </div>
