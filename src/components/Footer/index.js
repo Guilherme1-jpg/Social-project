@@ -2,10 +2,13 @@ import React from "react";
 import { GrFacebook } from "react-icons/gr";
 import { GrInstagram } from "react-icons/gr";
 import { GrYoutube } from "react-icons/gr";
+import { Divider, Typography } from "@mui/material";
+
 const Footer = () => {
   return (
     <>
       <footer className="page-footer font-small blue pt-4">
+        <Divider />
         <div className="container-fluid text-center text-md-left">
           <hr className="clearfix w-100 d-md-none pb-0" />
           <div className="row">

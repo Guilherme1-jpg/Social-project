@@ -1,5 +1,4 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
 
 import Grid from "@mui/material/Grid";
 import { Divider, Typography } from "@mui/material";
@@ -21,16 +20,15 @@ export default function Shop() {
           </Grid>
 
           <Grid container style={{ marginBottom: "10px" }}>
-            {" "}
-            <Typography variant="h4" style={{ padding: 10 }}>
+            <Typography variant="h6" style={{ padding: 10 }}>
               Conheça nossos produtos feitos de forma caseira e com muito amor.
             </Typography>
           </Grid>
-          <Grid container spacing={0} display="flex" justifyContent="center">
-            <Grid item xs={6}>
-              <ImageGallery items={images} />
-            </Grid>
+
+          <Grid item sm={6}>
+            <ImageGallery items={images} />
           </Grid>
+
           <Grid container spacing={6} marginTop="15px">
             <Grid item xs={6}>
               <Typography style={{ color: "#625422" }} variant="h2">

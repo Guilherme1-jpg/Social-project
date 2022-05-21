@@ -6,6 +6,7 @@ import Maps from "../../../components/maps";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Work from "../../../components/work";
+import Fraternity from "../../../components/fraternity";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
             <h1 align="center">Bem vindo(a) ao nosso site</h1>
             <br></br>
             <br></br>
+
             <em>
               <h2 align="top" align-text="center">
                 “Consagradas ao generoso Serviço do Altíssimo e da Virgem Maria
@@ -53,11 +55,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="col-md-3" margin-left="10%">
-          <PgFacebook />
-        </div>
+        <div class="col-md-3" margin-left="10%"></div>
         <Work />
+        <Fraternity />
       </div>
+      <PgFacebook />
       <Maps />
     </>
   );

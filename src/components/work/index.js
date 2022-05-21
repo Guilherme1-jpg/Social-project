@@ -8,16 +8,14 @@ const Work = () => {
   return (
     <>
       <Box
-        md={3}
         display="flex"
-        justifyContent="space-evenly"
         marginBottom="50px"
         flexDirection="column"
         marginTop="30px"
       >
         <Box display="flex" justifyContent="center">
-          <Grid container>
-            <Grid item xs={12} sm={6} marginLeft="500px">
+          <Grid container spacing={3}>
+            <Grid item xs={4} sm={6} marginLeft="300px">
               <Typography style={{ color: "#625422" }} variant="h3">
                 Trabalhos
               </Typography>
@@ -37,9 +35,15 @@ const Work = () => {
               </Typography>
             </Grid>
           </Grid>
-          <Box sx={{ display: "flex", flexDirection: "column" }}>
-            <Grid item xs={12} sm={6} marginRight="450px">
-              <img src={ChurchWork} width="400px" height="300px" />
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              marginRight: "200px",
+            }}
+          >
+            <Grid item xs={8} sm={6}>
+              <img src={ChurchWork} width="650px" height="450px" />
             </Grid>
           </Box>
         </Box>

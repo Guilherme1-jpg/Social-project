@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Divider, Typography } from "@mui/material";
 import ShowMoreText from "react-show-more-text";
 import * as C from "./styled";
 import Vocation1 from "../../../_assets/img/vocation/vocation1.jpg";
