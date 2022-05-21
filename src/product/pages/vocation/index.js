@@ -4,7 +4,6 @@ import * as C from "./styled";
 import Vocation1 from "../../../_assets/img/vocation/vocation1.jpg";
 import Vocation2 from "../../../_assets/img/vocation/vocation2.jpg";
 import Vocation3 from "../../../_assets/img/vocation/vocation3.jpg";
-import { ListGroup } from "react-bootstrap";
 
 const Vocation = () => {
   const [expand, setExpend] = useState(false);
