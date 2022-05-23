@@ -2,17 +2,6 @@ import React, { useState } from "react";
 import PgFacebook from "../../../components/pgFacebook";
 import ShowMoreText from "react-show-more-text";
 
-import Santa1 from "../../../_assets/img/staBeatriz/santa1.jpg";
-import Santa2 from "../../../_assets/img/staBeatriz/santa2.jpg";
-import Santa3 from "../../../_assets/img/staBeatriz/santa3.jpg";
-import Santa4 from "../../../_assets/img/staBeatriz/santa4.jpg";
-import Santa5 from "../../../_assets/img/staBeatriz/santa5.jpg";
-import Santa6 from "../../../_assets/img/staBeatriz/santa6.jpg";
-import Santa7 from "../../../_assets/img/staBeatriz/santa7.jpg";
-import Santa8 from "../../../_assets/img/staBeatriz/santa8.jpg";
-import Santa9 from "../../../_assets/img/staBeatriz/santa9.jpg";
-import Santa10 from "../../../_assets/img/staBeatriz/santa10.jpg";
-import Santa11 from "../../../_assets/img/staBeatriz/santa11.jpg";
 import PreyImage from "../../../_assets/img/prey/preyImage.png";
 import PreyImage2 from "../../../_assets/img/prey/preyImage2.jpg";
 import PreyImage3 from "../../../_assets/img/prey/preyImage3.jpg";
@@ -27,12 +16,12 @@ const Prey = () => {
 
   return (
     <>
-      <div class="row">
-        <div class="col-9">
+      <div class="container">
+        <div class="col-12">
           <div class="row">
             <h1 class="mb-5 text-center font-italic">Oração</h1>
             <figure>
-              <img alt="" src={PreyImage} class="img-fluid" />
+              <img alt="" src={PreyImage} class="img-fluid" align="center" />
             </figure>
             <br />
             <div class="row mb-3">
@@ -54,7 +43,7 @@ const Prey = () => {
                     aderir e responder ao que o Senhor clama no íntimo de nossa
                     alma.
                   </p>
-                  <p>
+                  <p class="text-justify">
                     Portanto a Vida da Monja, é marcada pela Oração, pelo
                     diálogo com Deus, que acontece em vários momentos do dia, em
                     Comunidade e individualmente :<br /><br />
@@ -71,14 +60,14 @@ const Prey = () => {
                       <br />
                     </div>
                     <div>
-                      <p>
+                      <p class="text-justify">
                         A Vida da Monja é uma contínua transformação,
                         convertendo o seu viver ao Viver de Cristo, em atitude
                         de intercessão por toda a humanidade.
                       </p>
                     </div>
                   </p>
-                  <p>
+                  <p class="text-justify">
                     A uma alma delicada unia Beatriz uma natureza cativante, e
                     deslumbrante formosura.
                   </p>
@@ -89,10 +78,10 @@ const Prey = () => {
             <div class="row mb-3">
               <div class="col-5 d-flex justify-content-end">
                 <figure class="my-4">
-                  <img src={PreyImage2} alt="" class="img-fluid" />
+                  <img src={PreyImage2} alt="" width= "350px" height="350px" class="img-fluid" />
                 </figure>
               </div>
-              <div class="col-7" justify-content="left">
+              <div class="col-7">
                 <h4>Ofício Divino</h4>
                 <ShowMoreText
                   lines={6}
@@ -101,13 +90,13 @@ const Prey = () => {
                   onClick={onClick}
                   expanded={expand}
                 >
-                  <p>
+                  <p class="text-justify">
                     Para estimular e nutrir essa Presença do Senhor, as Monjas
                     são chamadas ao Louvor ao Criador desde o nascer ao pôr do
                     sol e esta Oração Litúrgica, não o fazem por si mesmas, mas
                     em nome de toda a Igreja e pela humanidade. Por isso, elevam
                     salmos e hinos de louvor e gratidão ao Senhor na Liturgia
-                    das Horas, 7 vezes durante o dia , comunitariamente.
+                    das Horas, 7 vezes durante o dia, comunitariamente.
                     Portanto o Mosteiro é um recanto de Oração, é o Lugar da
                     Casa de Deus e oferece um ambiente propício, para todos os
                     fiéis freqüentadores, que desejam crescer na oração pessoal,
@@ -121,7 +110,7 @@ const Prey = () => {
             <div class="row mb-3">
               <div class="col-5 d-flex justify-content-end">
                 <figure class="my-4">
-                  <img src={PreyImage3} alt="" class="img-fluid" />
+                  <img src={PreyImage3} alt="" width= "350px" height="350px" class="img-fluid" />
                 </figure>
               </div>
               <div class="col-7" justify-content="left">
@@ -133,7 +122,7 @@ const Prey = () => {
                   onClick={onClick}
                   expanded={expand}
                 >
-                  <p>
+                  <p class="text-justify">
                     Os Monges e Monjas, desde suas origens, buscam viver este
                     dom da Oração,iluminados pela Luz das Sagradas Escrituras. A
                     meditação assídua da Palavra, é a chave para o
@@ -157,7 +146,7 @@ const Prey = () => {
                     deixa amar pelo Senhor e o ama na plenitude de sua entrega,
                     sendo dócil aos apelos do Senhor.
                   </p>
-                  <p>
+                  <p class="text-justify">
                     <em>
                       <strong>
                         É na Oração e meditação, que a Monja encontra força,
@@ -174,7 +163,7 @@ const Prey = () => {
             <div class="row mb-3">
               <div class="col-5 d-flex justify-content-end">
                 <figure class="my-4">
-                  <img src={PreyImage4} alt="" class="img-fluid" />
+                  <img src={PreyImage4} alt="" width= "350px" height="350px" class="img-fluid" />
                 </figure>
               </div>
               <div class="col-7" justify-content="left">
@@ -225,7 +214,7 @@ const Prey = () => {
             <div class="row mb-3">
               <div class="col-5 d-flex justify-content-end">
                 <figure class="my-4">
-                  <img src={PreyImage5} alt="" class="img-fluid" />
+                  <img src={PreyImage5} alt="" width= "350px" height="350px" class="img-fluid" />
                 </figure>
               </div>
               <div class="col-7" justify-content="left">
@@ -237,7 +226,7 @@ const Prey = () => {
                   onClick={onClick}
                   expanded={expand}
                 >
-                  <p>
+                  <p class="text-justify">
                     <strong>A Intercessão</strong> é uma oração de súplica ao
                     Senhor, que ora em favor do outro, ou seja, é a expressão da
                     união e da comunhão dos santos. Desde Abraão, Moisés, David,
@@ -245,7 +234,7 @@ const Prey = () => {
                     interceder em favor do povo e não buscavam os seus próprios
                     interesses, mas sobretudo os dos outros (Fl 2, 4).
                   </p>
-                  <p>
+                  <p class="text-justify">
                     <strong>
                       A Religiosa Contemplativa, tem através do seu Viver Orante
                       uma presença muito útil e portadora de transformação
@@ -256,7 +245,7 @@ const Prey = () => {
                     planície, tanto assim que quando Moisés descia os braços
                     orantes, os inimigos prevaleciam (Ex 17, 8-13)
                   </p>
-                  <p>
+                  <p class="text-justify">
                     A Monja faz do seu viver uma Oração viva na presença de
                     Deus, tal como uma vela acesa sobre o altar.{" "}
                     <strong>
@@ -264,14 +253,14 @@ const Prey = () => {
                       Amor a Deus.
                     </strong>
                   </p>
-                  <p>
+                  <p class="text-justify">
                     Além do mais, temos exemplo do próprio Cristo que consagrou
                     à oração, no silêncio de Nazaré, 30 anos de sua vida
                     terrena. E até mesmo durante a vida pública, Jesus passava
                     muitas noites em oração; sendo o seu conselho categórico:{" "}
                     <em>“ Orai sem cessar” (Lc 18,1)</em>.
                   </p>
-                  <p>
+                  <p class="text-justify">
                     <strong>
                       Portanto, é na Oração que a Monja encontra força, para
                       transformar sua vida à Vida de Cristo, fazendo dela uma
@@ -296,7 +285,6 @@ const Prey = () => {
           </div>
         </div>
         <div class="col-3">
-          <PgFacebook />
         </div>
       </div>
     </>
