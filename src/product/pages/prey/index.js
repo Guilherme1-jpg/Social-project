@@ -24,9 +24,9 @@ const Prey = () => {
               <img alt="" src={PreyImage} class="img-fluid" align="center" />
             </figure>
             <br />
-            <div class="row mb-3">
-              <div class="col-3 d-flex justify-content-end"></div>
-              <div class="col-7" justify-content="left">
+            <div class="row mb-12">
+              <div class="col-12  d-flex justify-content-end"></div>
+              <div class="col-12" justify-content="center">
                 <ShowMoreText
                   lines={5}
                   more={"Mostrar mais"}
@@ -34,7 +34,7 @@ const Prey = () => {
                   onClick={onClick}
                   expanded={expand}
                 >
-                  <p>
+                  <p class="text-justify">
                     A Oração é a vida do coração novo e deve nos animar a cada
                     momento. Contudo, devido a nossa frágil condição humana,
                     muitas vezes esquecemo-nos Daquele que é a nossa Vida e o

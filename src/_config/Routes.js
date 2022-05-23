@@ -6,11 +6,8 @@ import Shop from "../product/pages/shop";
 import About from "../product/pages/about";
 import Blog from "../product/pages/blog";
 import SantaBeatriz from "../product/pages/santaBeatriz";
-<<<<<<< HEAD
 import Prey from "../product/pages/prey";
-=======
 import Vocation from "../product/pages/vocation";
->>>>>>> f7f32ad1d51f54e7bab8eb96d820ba4e492635d6
 
 export const Routelist = {
   HOME: "/home",
@@ -19,11 +16,8 @@ export const Routelist = {
   ABOUT: "/about",
   BLOG: "/blog",
   SANTABEATRIZ: "/santaBeatriz",
-<<<<<<< HEAD
   PREY: "/prey",
-=======
   VOCATION: "/vocation",
->>>>>>> f7f32ad1d51f54e7bab8eb96d820ba4e492635d6
 };
 
 export default function RoutesConfig() {
