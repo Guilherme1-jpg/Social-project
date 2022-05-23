@@ -6,6 +6,7 @@ import Shop from "../product/pages/shop";
 import About from "../product/pages/about";
 import Blog from "../product/pages/blog";
 import SantaBeatriz from "../product/pages/santaBeatriz";
+import Prey from "../product/pages/prey";
 
 export const Routelist = {
   HOME: "/home",
@@ -14,6 +15,7 @@ export const Routelist = {
   ABOUT: "/about",
   BLOG: "/blog",
   SANTABEATRIZ: "/santaBeatriz",
+  PREY: "/prey",
 };
 
 export default function RoutesConfig() {
@@ -26,6 +28,7 @@ export default function RoutesConfig() {
         <Route path={Routelist.ABOUT} element={<About />} />
         <Route path={Routelist.BLOG} element={<Blog />} />
         <Route path={Routelist.SANTABEATRIZ} element={<SantaBeatriz />} />
+        <Route path={Routelist.PREY} element={<Prey />} />
       </Routes>
     </BrowserRouter>
   );

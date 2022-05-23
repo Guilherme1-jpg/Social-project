@@ -4,6 +4,8 @@ import * as C from "./styled";
 import Email from "../../../_assets/img/email-contato.png";
 
 const Contact = () => {
+  
+ 
   return (
     <>
       <body>
@@ -18,11 +20,7 @@ const Contact = () => {
             <img alt="freiraContateira" width="95%" height="95%" src={Email} />
           </div>
           <div class="content col-md-6">
-            <form
-              id="frmContact"
-              method="POST"
-              action="mailto:irmãs@irmãs.com"
-            >
+            <form >
               <div class="form-group required">
                 <label for="nome" class="required-label">
                   <strong>Nome completo</strong>
@@ -34,7 +32,7 @@ const Contact = () => {
                   id="nome"
                   aria-required="true"
                   required=""
-                  maxlength="100"
+                  maxLength="100"
                 />
               </div>
               <div>
@@ -48,7 +46,7 @@ const Contact = () => {
                   id="email"
                   aria-required="true"
                   required=""
-                  maxlength="100"
+                  maxLength="100"
                 />
               </div>
               <div class="form-group required">
@@ -74,7 +72,7 @@ const Contact = () => {
                   class="form-control required"
                   id="mensagem"
                   aria-required="true"
-                  maxlength="2000"
+                  maxLength="2000"
                   required=""
                   rows="5"
                 />
@@ -85,8 +83,7 @@ const Contact = () => {
               <div id="mail-status"></div>
               <button
                 type="submit"
-                onclick= ""
-                value= "submit"
+                value="submit"
                 class="btn btn-primary"
                 id="send-email"
               >
