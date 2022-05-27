@@ -12,7 +12,7 @@ const NavbarToggle = () => {
             <img className="logo-config" src={LogoIcon} />
           </Navbar.Brand>
           <Nav className="justify-content-center">
-            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/blog">Blog</Nav.Link>
             <Nav.Link href="/vocation">Vocação</Nav.Link>
             <Nav.Link href="/shop">Produtos</Nav.Link>

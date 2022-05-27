@@ -10,7 +10,7 @@ import Prey from "../product/pages/prey";
 import Vocation from "../product/pages/vocation";
 
 export const Routelist = {
-  HOME: "/home",
+  HOME: "/",
   CONTACT: "/contact",
   SHOP: "/shop",
   ABOUT: "/about",
