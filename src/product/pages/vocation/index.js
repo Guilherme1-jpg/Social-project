@@ -16,7 +16,7 @@ const Vocation = () => {
     <>
       <div class="row d-flex justify-content-center">
         <div class="col-9">
-          <h1 class="mb-5 text-center font-italic">Vocação</h1>
+          <h1 class="mb-5 text-center font-italic"><Divider>Vocação</Divider></h1>
           <figure class="text-center fs-8">
             <blockquote>
               <b>
@@ -179,7 +179,7 @@ const Vocation = () => {
               <figure class="m-2">
                 <img src={Vocation1} alt="" />
               </figure>
-              <div>
+              <div class="p-1">
                 <p>
                   Quando vemos pessoas que vão se desligando do mundo e das
                   coisas dele ( falo aqui das coisas boas e lícitas, coisas
