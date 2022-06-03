@@ -51,6 +51,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="nome"
+                  value={name}
                   class="form-control required"
                   id="nome"
                   aria-required="true"
@@ -64,6 +65,7 @@ const Contact = () => {
                   <strong>E-mail</strong>
                 </label>
                 <input
+                  value={email}
                   type="email"
                   name="email"
                   class="form-control required"
@@ -80,6 +82,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="text"
+                  value={phone}
                   name="telefone"
                   class="telefone form-control required"
                   id="telefone"
@@ -94,6 +97,7 @@ const Contact = () => {
                   <strong>Mensagem</strong>
                 </label>
                 <input
+                  value={message}
                   name="mensagem"
                   class="form-control required"
                   id="mensagem"
