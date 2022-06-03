@@ -104,9 +104,7 @@ const Blog = () => {
 
           </div>
         </div>
-      </div>
-
-      <div class="row mb-3 d-flex justify-content-center"></div>
+      </div>   
     </>
   );
 };

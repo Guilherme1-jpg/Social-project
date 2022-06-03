@@ -28,38 +28,6 @@ export default function Shop() {
           <Grid item sm={6}>
             <ImageGallery items={images} />
           </Grid>
-
-          <Grid container spacing={6} marginTop="15px">
-            <Grid item xs={6}>
-              <Typography style={{ color: "#625422" }} variant="h2">
-                Valores
-                <Divider />
-              </Typography>
-
-              <Typography variant="h5">
-                <b>Pães de mel</b> = R$ 1,50
-              </Typography>
-              <Typography variant="h5">
-                <b>Rosquinhas </b> = R$ 5,00 (pacote)
-              </Typography>
-              <Typography variant="h5">
-                <b>Bolo Santa Beatriz (c/frutas cristalizadas/castanhas) </b> =
-                R$ 5,00
-              </Typography>
-              <Typography variant="h5">
-                <b>Doces em Calda </b> = R$ 7,00
-              </Typography>
-              <Typography variant="h5">
-                <b>Licores (canela,cacau,jabuticaba,figo) </b> = R$ 12,00
-              </Typography>
-              <Typography variant="h5">
-                <b>Licor de Marula </b> = R$ 20,00
-              </Typography>
-              <Typography variant="h5">
-                <b>Pão caseiro </b> = R$ 5,00
-              </Typography>
-            </Grid>
-          </Grid>
         </Grid>
       </Box>
     </>
