@@ -1,8 +1,14 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import { Divider, Typography } from "@mui/material";
+import { Divider, styled, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import Fraternity from "../../_assets/img/fraternidade.jpg";
+
+const CustomizedText = styled(Typography)`
+  @media (max-width: 650px) {
+    color: #fff;
+  }
+`;
 
 const Fraternidade = () => {
   return (
@@ -31,7 +37,7 @@ const Fraternidade = () => {
                 Fraternidade
               </Typography>
               <Divider />
-              <Typography
+              <CustomizedText
                 marginTop={5}
                 style={{ fontSize: "20px" }}
                 variant="subtitle1"
@@ -42,7 +48,7 @@ const Fraternidade = () => {
                 Comunhão com Deus”.
                 <br /> CCGG 95 O Mosteiro é uma “Nazaré” feita de silêncio,
                 fraternidade, trabalho, alegria e paz.
-              </Typography>
+              </CustomizedText>
               <figure class="text-center fs-8">
                 <blockquote>
                   <b>

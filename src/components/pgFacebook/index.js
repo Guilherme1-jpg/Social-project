@@ -15,8 +15,8 @@ const PgFacebook = () => {
         marginTop="30px"
       >
         <Box display="flex" justifyContent="center">
-          <Grid container>
-            <Grid item sm={12} marginLeft="300px">
+          <Grid container spacing={2}>
+            <Grid item xs={6} marginLeft="300px">
               <Typography style={{ color: "#625422" }} variant="h3">
                 Conheça Nossa Redes Sociais
               </Typography>
@@ -54,7 +54,7 @@ const PgFacebook = () => {
             </Grid>
           </Grid>
           <Box sx={{ display: "flex", flexDirection: "column" }}>
-            <Grid item sm={8} marginTop="160px" marginRight="100px">
+            <Grid item xs={6} marginTop="160px" marginRight="100px">
               <iframe
                 id="ytplayer"
                 type="text/html"

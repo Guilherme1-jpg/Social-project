@@ -1,11 +1,34 @@
-import { style } from "@mui/system";
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import * as C from "./styled";
 import Email from "../../../_assets/img/email-contato.png";
 
+import axios from "axios";
+
 const Contact = () => {
-  
- 
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [phone, setPhone] = useState();
+  const [message, setMessage] = useState();
+
+  async function sendMail(e) {
+    e.preventDefault();
+
+    await axios
+      .post("http://localhost:3000", {
+        name,
+        email,
+        phone,
+        message,
+      })
+      .then((response) => {
+        if (response.data.msg === "sucess") {
+          alert("email enviado");
+        } else if (response.data.msg === "fail") {
+          alert("email falhou");
+        }
+      });
+  }
+
   return (
     <>
       <body>
@@ -20,7 +43,7 @@ const Contact = () => {
             <img alt="freiraContateira" width="95%" height="95%" src={Email} />
           </div>
           <div class="content col-md-6">
-            <form >
+            <form>
               <div class="form-group required">
                 <label for="nome" class="required-label">
                   <strong>Nome completo</strong>
@@ -33,6 +56,7 @@ const Contact = () => {
                   aria-required="true"
                   required=""
                   maxLength="100"
+                  onChange={(e) => setName(e.target.value)}
                 />
               </div>
               <div>
@@ -47,6 +71,7 @@ const Contact = () => {
                   aria-required="true"
                   required=""
                   maxLength="100"
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
               <div class="form-group required">
@@ -60,6 +85,7 @@ const Contact = () => {
                   id="telefone"
                   aria-required="true"
                   required=""
+                  onChange={(e) => setPhone(e.target.value)}
                 />
               </div>
 
@@ -75,6 +101,7 @@ const Contact = () => {
                   maxLength="2000"
                   required=""
                   rows="5"
+                  onChange={(e) => setMessage(e.target.value)}
                 />
                 <small class="form-text text-muted">
                   Limite de 2.000 caracteres
@@ -86,6 +113,7 @@ const Contact = () => {
                 value="submit"
                 class="btn btn-primary"
                 id="send-email"
+                onClick={sendMail}
               >
                 Enviar
               </button>
