@@ -14,7 +14,7 @@ const Contact = () => {
     e.preventDefault();
 
     await axios
-      .post("http://localhost:3000", {
+      .post("http://localhost:8080/mosteiro-0.0.1-SNAPSHOT/v1/oracao", {
         name,
         email,
         phone,
