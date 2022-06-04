@@ -8,6 +8,7 @@ import Blog from "../product/pages/blog";
 import SantaBeatriz from "../product/pages/santaBeatriz";
 import Prey from "../product/pages/prey";
 import Vocation from "../product/pages/vocation";
+import AboutDevelopers from "../components/AboutDevelopers";
 
 export const Routelist = {
   HOME: "/",
@@ -18,6 +19,7 @@ export const Routelist = {
   SANTABEATRIZ: "/santaBeatriz",
   PREY: "/prey",
   VOCATION: "/vocation",
+  DEVELOPERS: "/developers",
 };
 
 export default function RoutesConfig() {
@@ -32,6 +34,7 @@ export default function RoutesConfig() {
         <Route path={Routelist.BLOG} element={<Blog />} />
         <Route path={Routelist.SANTABEATRIZ} element={<SantaBeatriz />} />
         <Route path={Routelist.PREY} element={<Prey />} />
+        <Route path={Routelist.DEVELOPERS} element={<AboutDevelopers />} />
       </Routes>
     </BrowserRouter>
   );
