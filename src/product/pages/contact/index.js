@@ -29,6 +29,10 @@ const Contact = () => {
       });
   }
 
+  const handleSucess = () => {
+    window.confirm("enviado");
+  };
+
   return (
     <>
       <body>
@@ -43,7 +47,7 @@ const Contact = () => {
             <img alt="freiraContateira" width="95%" height="95%" src={Email} />
           </div>
           <div class="content col-md-6">
-            <form>
+            <form onSubmit={sendMail}>
               <div class="form-group required">
                 <label for="nome" class="required-label">
                   <strong>Nome completo</strong>
@@ -117,7 +121,7 @@ const Contact = () => {
                 value="submit"
                 class="btn btn-primary"
                 id="send-email"
-                onClick={sendMail}
+                onClick={handleSucess}
               >
                 Enviar
               </button>
