@@ -5,6 +5,10 @@ import * as C from "./styled";
 import Vocation1 from "../../../_assets/img/vocation/vocation1.jpg";
 import Vocation2 from "../../../_assets/img/vocation/vocation2.jpg";
 import Vocation3 from "../../../_assets/img/vocation/vocation3.jpg";
+import Formation1 from "../../../_assets/img/formation/formation1.jpg";
+import Formation2 from "../../../_assets/img/formation/formation2.jpg";
+import Formation3 from "../../../_assets/img/formation/formation3.jpg";
+import Formation4 from "../../../_assets/img/formation/formation4.jpg";
 
 const Vocation = () => {
   const [expand, setExpend] = useState(false);
@@ -16,7 +20,9 @@ const Vocation = () => {
     <>
       <div class="row d-flex justify-content-center">
         <div class="col-9">
-          <h1 class="mb-5 text-center font-italic"><Divider>Vocação</Divider></h1>
+          <h1 class="mb-5 text-center font-italic">
+            <Divider>Vocação</Divider>
+          </h1>
           <figure class="text-center fs-8">
             <blockquote>
               <b>
@@ -407,6 +413,106 @@ const Vocation = () => {
               <li>de 18 a 28 anos de idade ( podem ter exceções )</li>
               <li>Saúde normal</li>
             </ul>
+
+            <Divider><h3 class=" fs-1 text-center font-italic">Formação</h3></Divider>
+
+            <figure class="text-center fs-8">
+              <blockquote>
+                <b>
+                  {" "}
+                  “ O ideal de toda a formação é imitar a disponibilidade da
+                  Virgem Imaculada, que em seu esvaziamento, acolheu a mensagem
+                  do Altíssimo : “ Eis aqui a escrava do Senhor, faça-se em mim
+                  segundo a tua Palavra” , concebendo, desta maneira, o Filho de
+                  Deus.”
+                </b>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                <cite title="(Lc 1,38)">(Lc 1,38)</cite>
+              </figcaption>
+            </figure>
+
+            <div class="d-flex">
+              {" "}
+              <figure class="">
+                <img src={Formation1} alt="" />
+              </figure>
+              <h3 class="mt-5 fs-2 bold text-center font-italic">
+                {" "}
+                Uma vida nova vai começar: seu modelo e guia - Maria Imaculada.
+              </h3>
+              <figure class="">
+                <img src={Formation2} alt="" />
+              </figure>
+            </div>
+
+            <div>
+              <p class="fs-4">
+                “A Comunidade Concepcionista acolhe cada Irmã como um dom do
+                Senhor e ama mais que a Mãe a sua filha carnal, aceitando-a como
+                é, oferecendo-lhe a oportunidade de desenvolver plenamente sua
+                vocação comunitária e seus dons da natureza e da Graça”.{" "}
+                <b>CCGG art.100</b>
+              </p>
+            </div>
+
+            <div class="d-flex">
+              <figure class="m-2">
+                <img src={Formation3} alt="" />
+              </figure>
+
+              <div class="p-1 mt-2">
+                <h3 class="mb-5 fs-2 text-center font-italic">Noviciado</h3>
+
+                <C.Paragraph class="fs-5">
+                  A Noviça, durante o Noviciado conforme sua mente e seu coração
+                  ao espírito e ao carisma de nossa ordem, e, mediante o estudo
+                  e a prática sejam introduzidas na Vida de Contemplação,
+                  Oração, Penitência, Pobreza e Comunhão Fraterna.
+                </C.Paragraph>
+              </div>
+            </div>
+
+            <div class="d-flex mt-3">
+              <figure class="m-2">
+                <img src={Formation4} alt="" />
+              </figure>
+
+              <div class="p-1 mt-2">
+                <h3 class="mb-5 mt-5 fs-2 text-center font-italic">
+                  Durante a Formação a Jovem aprende a:
+                </h3>
+
+                <p class="fs-5">
+                  <ul>
+                    <li> Viver na presença de Maria;</li>
+                    <li>
+                      Imitar Suas Virtudes: Humildade, Fé inabalável,
+                      Simplicidade, Pureza.
+                    </li>
+                    <li>Deixar-se possuir e levar pela Sua mão.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="mt-3 fs-2 text-start font-italic">
+                Profissão Religiosa
+              </h3>
+              <h3 class="mb-5 fs-5 text-start font-italic">
+                Sei a quem me entrego!
+              </h3>
+
+              <C.Paragraph class="fs-5">
+                Chega o suspirado dia da sua entrega e Consagração ao Senhor,
+                oferecendo-se a Ele, com hóstia viva, em corpo e alma. A Jovem
+                que responde ao Convite de Cristo, dando-lhe a sua palavra de
+                adesão e amor, transforma sua vida <b>“NUMA AVENTURA DE AMOR
+                DIVINO”</b> e engaja-se na maior obra social a ser realizada: A
+                Salvação das Almas! <b>Papa Paulo VI</b>
+              </C.Paragraph>
+            </div>
           </div>
         </div>
       </div>
