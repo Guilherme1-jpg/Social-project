@@ -22,6 +22,7 @@ const NavbarToggle = () => {
               <Nav.Link href="/santaBeatriz">Santa Beatriz</Nav.Link>
               <Nav.Link href="/prey">Oração</Nav.Link>
               <Nav.Link href="/contact">Contato</Nav.Link>
+              <Nav.Link href="/developers">Sobre os Desenvolvedores</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
